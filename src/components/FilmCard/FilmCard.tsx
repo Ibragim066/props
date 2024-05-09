@@ -24,8 +24,8 @@ export const FilmCard = ({ film }: Props) => (
     </div>
     <Stars count={film.count} />
     <div className="btn-wrapper">
-      <button className="btn film-price">{`Buy ${film.price}₽`}</button>
-      <button className="btn film-details">details →</button>
+      <button className="btn film-price">{`Купить ${film.price}₽`}</button>
+      <button className="btn film-details">Подробнее →</button>
     </div>
   </div>
 );
